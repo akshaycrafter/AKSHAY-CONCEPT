@@ -27,7 +27,7 @@ I built this as a demo for a design-studio-style client. The brief in my head wa
 
 ## What's on the page
 
-- **Hero** — Large display type (Syne) with a rotating tagline and a scroll cue
+- **Hero** — Large display type (Syne) with a tagline and a scroll cue
 - **Work grid** — One featured case study card plus a 3-up grid of smaller project cards, each with a minimal inline SVG icon instead of a photo
 - **Process** — Numbered steps walking through how a project moves from brief to delivery
 - **Contact** — A working-styled inquiry form plus studio details (location, email, phone, response time)
@@ -58,7 +58,12 @@ akshay-concept/
 ├── js/
 │ └── script.js
 └── assets/
-    └── favicon.svg
+    ├── favicon.svg
+    ├── charcoal-hero.png
+    ├── charcoal-work.png
+    ├── charcoal-about.png
+    ├── charcoal-process.png
+    └── charcoal-contact.png
 ```
 Clone it, open index.html in a browser. That's it.
 

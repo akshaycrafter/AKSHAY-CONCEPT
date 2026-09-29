@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&family=Space+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css"><noscript><style>.reveal-line,.fade-up{opacity:1!important;transform:none!important}</style></noscript>
 </head>
 <body>
 
@@ -40,10 +40,10 @@
   <div class="nav-right">
     <a href="#contact" class="mag-btn ghost"><span>Get in Touch</span></a>
     <a href="#work" class="mag-btn"><span>View Work</span></a>
-    <button class="nav-ham" id="ham"><span></span><span></span><span></span></button>
+    <button class="nav-ham" id="ham" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </nav>
-
+<main>
 <!-- HERO -->
 <section class="hero">
   <div class="hero-left">
@@ -107,7 +107,7 @@
       <span class="reveal-wrap"><span class="reveal-line">Case</span></span>
       <span class="reveal-wrap"><span class="reveal-line" style="color:var(--fg3)">Studies</span></span>
     </h2>
-    <a href="#" class="mag-btn ghost fade-up"><span>All Projects →</span></a>
+    <a href="#work" class="mag-btn ghost fade-up"><span>All Projects →</span></a>
   </div>
   <div class="work-featured fade-up">
     <div class="wf-img">
@@ -132,7 +132,7 @@
           <span class="wf-tag">Identity</span><span class="wf-tag">Typography</span><span class="wf-tag">Motion</span><span class="wf-tag">Web</span>
         </div>
       </div>
-      <a href="#" class="mag-btn"><span>View Case Study →</span></a>
+      <a href="#work" class="mag-btn"><span>View Case Study →</span></a>
     </div>
   </div>
   <div class="work-grid">
@@ -143,7 +143,7 @@
       <span class="wc-num">01</span>
       <h3 class="wc-name">Brand Identity</h3>
       <p class="wc-sub">Visual systems reduced to their most essential form.</p>
-      <a href="#" class="wc-arrow">Explore →</a>
+      <a href="#contact" class="wc-arrow">Explore →</a>
     </div>
     <div class="wc fade-up d1">
       <div class="wc-icon">
@@ -152,7 +152,7 @@
       <span class="wc-num">02</span>
       <h3 class="wc-name">Web Design</h3>
       <p class="wc-sub">Layouts that breathe. Scroll experiences that feel inevitable.</p>
-      <a href="#" class="wc-arrow">Explore →</a>
+      <a href="#contact" class="wc-arrow">Explore →</a>
     </div>
     <div class="wc fade-up d2">
       <div class="wc-icon">
@@ -161,7 +161,7 @@
       <span class="wc-num">03</span>
       <h3 class="wc-name">App Design</h3>
       <p class="wc-sub">Every tap, swipe, and transition considered with surgical care.</p>
-      <a href="#" class="wc-arrow">Explore →</a>
+      <a href="#contact" class="wc-arrow">Explore →</a>
     </div>
   </div>
 </section>
@@ -221,19 +221,19 @@
   <div class="contact-right">
     <form class="form" id="contactForm">
       <div class="fg-row">
-        <div class="fg"><label>First Name</label><input type="text" placeholder="Arjun"></div>
-        <div class="fg"><label>Last Name</label><input type="text" placeholder="Sharma"></div>
+        <div class="fg"><label for="cf-first">First Name</label><input type="text" id="cf-first" placeholder="Arjun" required></div>
+        <div class="fg"><label for="cf-last">Last Name</label><input type="text" id="cf-last" placeholder="Sharma"></div>
       </div>
-      <div class="fg"><label>Email Address</label><input type="email" placeholder="arjun@company.com"></div>
-      <div class="fg"><label>Project Type</label>
-        <select><option value="" disabled selected>Select a service</option><option>Brand Identity</option><option>Web Design</option><option>App Design</option><option>Motion Design</option><option>Design System</option></select>
+      <div class="fg"><label for="cf-email">Email Address</label><input type="email" id="cf-email" placeholder="arjun@company.com" required></div>
+      <div class="fg"><label for="cf-type">Project Type</label>
+        <select id="cf-type"><option value="" disabled selected>Select a service</option><option>Brand Identity</option><option>Web Design</option><option>App Design</option><option>Motion Design</option><option>Design System</option></select>
       </div>
-      <div class="fg"><label>About Your Project</label><textarea placeholder="Tell us what you're building..."></textarea></div>
+      <div class="fg"><label for="cf-message">About Your Project</label><textarea id="cf-message" placeholder="Tell us what you're building..." required></textarea></div>
       <button type="submit" class="mag-btn" id="formBtn" style="margin-top:8px"><span>Send Message →</span></button>
     </form>
   </div>
 </section>
-
+</main>
 <!-- FOOTER -->
 <footer>
   <div class="footer-top">
