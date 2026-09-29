@@ -1,4 +1,4 @@
-# CHARCOAL STUDIO — Design Studio
+# AKSHAY CONCEPT — Design Studio
 
 A dark, editorial-style landing page for a design studio. One-page, no fluff, no stock photos.
 
@@ -51,7 +51,7 @@ Everything ships as index.html + css/style.css + js/script.js on purpose. No npm
 ## Running it locally
 
 ```
-charcoal-studio/
+akshay-concept/
 ├── index.html
 ├── css/
 │ └── style.css

@@ -61,7 +61,7 @@ const cio=new IntersectionObserver(entries=>{
 },{threshold:.5});
 document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
 
-/* CHARCOAL STUDIO */
+/* AKSHAY CONCEPT */
 document.getElementById('contactForm').addEventListener('submit',e=>{
   e.preventDefault();
   const btn=document.getElementById('formBtn');
