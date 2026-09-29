@@ -67,7 +67,7 @@ document.getElementById('contactForm').addEventListener('submit',e=>{
   const btn=document.getElementById('formBtn');
   const sp=btn.querySelector('span');
   const orig=sp.textContent;
-  sp.textContent='Message Sent ✓';
+  sp.textContent='Demo — nothing sent ✓';
   btn.style.opacity='.6';
   btn.disabled=true;
   setTimeout(()=>{sp.textContent=orig;btn.style.opacity='';btn.disabled=false;e.target.reset();},3200);

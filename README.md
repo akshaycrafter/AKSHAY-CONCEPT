@@ -7,13 +7,13 @@ A dark, editorial-style landing page for a design studio. One-page, no fluff, no
 ## Preview
 
 ![Hero section showing "We Design Silence." headline with tagline and scroll cue](assets/charcoal-hero.png)
-*The hero section displays "We Design Silence." as its main headline, alongside a tagline about precision-led design, a scroll cue at the bottom, and meta rows for location (Mumbai, IN), availability (Q2 2025 — Open), and three project stats.*
+*The hero section displays "We Design Silence." as its main headline, alongside a tagline about precision-led design, a scroll cue at the bottom, and meta rows for location (India, sample), availability (Q4 2026 — Open), and three sample project stats.*
 
 ![Work section showing featured case study and 3-up grid of service cards](assets/charcoal-work.png)
-*The work section features a confidential client project (NDA protected, Brand Identity — 2024) as the highlighted case study above a three-card grid of Brand Identity, Web Design, and App Design, each with a minimal inline SVG icon.*
+*The work section features a sample case study (fictional client, Brand Identity — 2024) as the highlighted case study above a three-card grid of Brand Identity, Web Design, and App Design, each with a minimal inline SVG icon.*
 
 ![About section showing "We Don't Decorate. We Solve." and four stat counters](assets/charcoal-about.png)
-*The about section headlines "We Don't Decorate. We Solve." with a body paragraph about design as a precision instrument, plus four animated counters: 148+ projects delivered, 97% client retention, 5 years of precision, and 12 industry awards.*
+*The about section headlines "We Don't Decorate. We Solve." with a body paragraph about design as a precision instrument, plus four animated counters: 148+ projects delivered, 97% client retention, 5 years of precision, and 12 industry awards (all sample figures).*
 
 ![Process section showing four numbered steps from Discover to Deliver](assets/charcoal-process.png)
 *The process section lays out four numbered steps — Discover & Define, Concept & Prototype, Design & Refine, Deliver & Scale — each with a short description and a hover-triggered left border animation.*
